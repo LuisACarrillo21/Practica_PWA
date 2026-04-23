@@ -2,10 +2,10 @@ const CACHE_NAME = "soporte-pwa-v1";
 const APP_SHELL = [
   "./",
   "./index.html",
-  "./styles.css",
+  "./estilos.css",
   "./app.js",
   "./config.js",
-  "./manifest.webmanifest"
+  "./conexiones.webmanifest"
 ];
 
 self.addEventListener("install", (event) => {

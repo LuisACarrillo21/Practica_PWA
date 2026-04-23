@@ -24,7 +24,7 @@ const historyCount = document.getElementById("historyCount");
 
 // Service Worker
 if ("serviceWorker" in navigator) {
-  navigator.serviceWorker.register("./sw.js").catch(console.error);
+  navigator.serviceWorker.register("./servicios.js").catch(console.error);
 }
 
 // Net pill
