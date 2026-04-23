@@ -5,7 +5,7 @@ const APP_SHELL = [
   "./estilos.css",
   "./app.js",
   "./config.js",
-  "./conexiones.webmanifest"
+  "./conexion.webmanifest"
 ];
 
 self.addEventListener("install", (event) => {
